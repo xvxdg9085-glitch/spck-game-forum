@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="">
+    <link
+      rel="shortcut icon"
+      href="https://cdn.iconscout.com/icon/free/png-256/free-league-of-legends-logo-icon-svg-download-png-1933805.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+</head>
+<body class="h-screen flex items-center justify-center bg-gradient-to-r from-green-400 to-blue-500 ...">
+
+    <div class="flex h-[80vh] my-10 mx-5 border rounded-xl border-gray-300 shadow-sm overflow-hidden bg-white">
+        <div class="flex-1 h-full bg-red-500 mr-5">
+            <img src="https://i.pinimg.com/736x/ef/23/54/ef2354dfaa4623a27f305c0e672fb95c.jpg" alt="app design" class="w-full h-full object-cover">
+        </div>
+        <div class="flex-1 h-96 py-10 px-1 space-y-5 text-gray-700 mr-5 mb-3">
+            <div class="h-12 w-12 flex items-center justify-center text-green-700 bg-green-50 rounded-full mx-auto border ">
+                <i class="fa-solid fa-leaf"></i>
+            </div>
+            <div class="text-center">
+                <h1 class="text-xl font-medium mb-1">Welcome Back</h1>
+                <p class="font-bold italic">Sign in to your Riot account</p>
+            </div>
+            <div class="space-y-3">
+                <label for="email1">Enter email</label>
+                <div class="border border-gray-300 px-3 py-2 rounded-md flex items-center justify-between">
+                    <input type="email" id="email1" class="border-none  focus-visible:outline-none" placeholder="Your email here">
+                    <i class="fa-solid fa-at text-xs text-gray-400"></i>
+                </div>
+                <label for="password1">Enter password</label>
+                <div class="border border-gray-300 px-3 py-2 rounded-md flex items-center justify-between">
+                    <input type="password" id="password1" class="border-none  focus-visible:outline-none" placeholder="Your password here">
+                    <i class="fa-solid fa-lock text-xs text-gray-400"></i>
+                </div>
+                <div class="space-y-2 flex justify-between">
+                    <div class="p-2 flex items-center gap-2 border border-gray-300 rounded-md">
+                    <input type="checkbox" id="checkbox_remember" class="checkbox checkbox-sm checkbox-primary">
+                    <label for="checkbox_remember">Remember me</label>
+                    </div>
+                    <a href="#" class="text-blue-500">Recovery Password</a>
+                </div>
+                <button class="btn w-full bg-blue-600 text-white">Login</button>
+                <button class="btn w-full bg-gray-200 text-black"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Riot_Games_wordmark.svg/2560px-Riot_Games_wordmark.svg.png" class="w-4 h-4 mr-2" alt="">Login with Riot Client</button>
+                <div class="flex items-center gap-2 mt-10 justify-between pr-5 pb-5">
+                    <p class="">Dont have an account?</p>
+                    <a href="#" class="text-blue-500">Sign up now!</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
