@@ -92,7 +92,7 @@ const tft = {
     "https://cmsassets.rgpub.io/sanity/files/dsfx7636/news/e5791dbc0787a96e83b82df20d44375f09f4d861.mp4?accountingTag=league_of_legends_website",
   title: "Teamfight Tactics",
   sub_title:
-    "Choose your own strategy and outwit seven of your opponents and become the last person standing in this strategic game mode.sdf sdf",
+    "Choose your own strategy and outwit seven of your opponents and become the last person standing in this strategic game mode.",
 };
 function rift_active() {}
 function aram_active() {}
