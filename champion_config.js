@@ -94,6 +94,21 @@ const tft = {
   sub_title:
     "Choose your own strategy and outwit seven of your opponents and become the last person standing in this strategic game mode.",
 };
-function rift_active() {}
-function aram_active() {}
-function tft_active() {}
+const video_id = document.getElementById("video-id");
+const title = document.getElementById("Multipletitle");
+const sub_title = document.getElementById("sub-title");
+function rift_active() {
+  video_id.src = rift.video_id;
+  title.textContent = rift.title;
+  sub_title.textContent = rift.sub_title;
+}
+function aram_active() {
+  video_id.src = aram.video_id;
+  title.textContent = aram.title;
+  sub_title.textContent = aram.sub_title;
+}
+function tft_active() {
+  video_id.src = tft.video_id;
+  title.textContent = tft.title;
+  sub_title.textContent = tft.sub_title;
+}
