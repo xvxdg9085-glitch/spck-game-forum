@@ -1,17 +1,12 @@
 first = {
-     rpvalue: 340,
+     rpvalue: 'Lucian Vinh Quang',
     bonus: '❌',
-    price: '50k'
+    price: '3M'
 }
 second = {
-     rpvalue: 690,
-    bonus: '✅',
-    price: '100k'
-}
-third = {
-     rpvalue: 1400,
-    bonus: '✅',
-    price: '200k'
+     rpvalue: 'Aatrox Vinh Quang',
+    bonus: '❌',
+    price: '400K'
 }
 const rp_value = document.getElementById('rp_value');
 const bonus = document.getElementById('bonus');
@@ -26,9 +21,4 @@ function second_pack() {
     rp_value.textContent = second.rpvalue;
     bonus.textContent = second.bonus;
     price.textContent = second.price;
-}
-function third_pack() {
-    rp_value.textContent = third.rpvalue;
-    bonus.textContent = third.bonus;
-    price.textContent = third.price;
 }
