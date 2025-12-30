@@ -88,48 +88,69 @@
       </div>
     </section>
 
+
+    <div class="w-full h-[400px] flex justify-around">
+        <button
+              onclick="first_pack()"
+              class="relative group"
+            >
+              <img
+                src="https://stc-sot.vcdn.vn/ws-content/uploads//LOL-ZINGPAY-1-LIVE/image/product/1312044908328128512.png"
+                alt="Assassin"
+                class="pointer-events-none transition-transform duration-300 group-hover:scale-110"
+              />
+            </button>
+            <button
+              onclick="second_pack()"
+              class="relative group"
+            >
+              <img
+                src="https://stc-sot.vcdn.vn/ws-content/uploads//LOL-ZINGPAY-1-LIVE/image/product/1312044976221327360.png"
+                alt="Assassin"
+                class="pointer-events-none transition-transform duration-300 group-hover:scale-110"
+              />
+            </button>
+            <button
+              onclick="third_pack()"
+              class="relative group"
+            >
+              <img
+                src="https://stc-sot.vcdn.vn/ws-content/uploads//LOL-ZINGPAY-1-LIVE/image/product/1312045018533466112.png"
+                alt="Assassin"
+                class="pointer-events-none transition-transform duration-300 group-hover:scale-110"
+              />
+            </button>
+    </div>
     <div class="w-full h-[800px] flex flex-col items-center">
-      <div class="w-full h-[50%] flex justify-around mt-40">
-        <div
-          class="w-[33%] h-full rounded-md border-2 border-black transition-all hover:scale-125 hover:rotate-1"
-        >
-          <img
-            src="https://stc-sot.vcdn.vn/ws-content/uploads//LOL-ZINGPAY-1-LIVE/image/product/1312044908328128512.png"
-            alt="RP"
-            class="w-full h-[50%] rounded-md"
-          />
-          <h1 class="text-black text-center text-5xl mt-5">RP custom</h1>
-          <p class="text-black text-center text-2xl mt-5">
-            custom from 340 to 1400
-          </p>
-          <a
-            href="rp.html"
-            class="btn bg-[#f59e0b] text-white text-2xl mt-5 flex items-center w-[50%]"
-            >Buy now</a
-          >
+        <h1 class="text-black text-center text-5xl mt-8 w-full h-[5%] font-bold">RP pack stat</h1>
+        <div class="w-[90%] h-[80%] rounded mt-8 flex flex-col items-center border-2 border-black">
+            <div class="w-full h-[20%] border border-black flex">
+                <h1 class="text-black text-center text-5xl mt-8 w-full h-[5%] font-bold">RP value</h1>
+                <h1 class="text-black text-center text-5xl mt-8 w-full h-[5%] font-bold">➡️</h1>
+                <h1 class="text-black text-center text-5xl mt-8 w-full h-[5%] font-bold" id="rp_value">340</h1>
+            </div>
+            <div class="w-full h-[20%] border border-black flex">
+                <h1 class="text-black text-center text-5xl mt-8 w-full h-[5%] font-bold">Bonus/Discount</h1>
+                <h1 class="text-black text-center text-5xl mt-8 w-full h-[5%] font-bold">➡️</h1>
+                <h1 class="text-black text-center text-5xl mt-8 w-full h-[5%] font-bold" id="bonus">❌</h1>
+            </div>
+            <div class="w-full h-[20%] border border-black flex">
+                <h1 class="text-black text-center text-5xl mt-8 w-full h-[5%] font-bold">Payment method</h1>
+                <h1 class="text-black text-center text-5xl mt-8 w-full h-[5%] font-bold">➡️</h1>
+                <h1 class="text-black text-center text-5xl mt-8 w-full h-[5%] font-bold">ZingCard/ZaloPay</h1>
+            </div>
+            <div class="w-full h-[20%] border border-black flex">
+                <h1 class="text-black text-center text-5xl mt-8 w-full h-[5%] font-bold">Price</h1>
+                <h1 class="text-black text-center text-5xl mt-8 w-full h-[5%] font-bold">➡️</h1>
+                <h1 class="text-black text-center text-5xl mt-8 w-full h-[5%] font-bold" id="price">50K</h1>
+            </div>
+            <div class="w-full h-[20%] border border-black flex">
+                <h1 class="text-black text-center text-5xl mt-8 w-full h-[5%] font-bold">Usage</h1>
+                <h1 class="text-black text-center text-5xl mt-8 w-full h-[5%] font-bold">➡️</h1>
+                <h1 class="text-black text-center text-5xl mt-8 mr-4 w-full h-[5%] font-bold">For LOL and TFT PC</h1>
+            </div>
         </div>
-        <div
-          class="w-[33%] h-full rounded-md border-2 border-black transition-all hover:scale-125 hover:rotate-1"
-        >
-          <img
-            src="acc1.png"
-            alt="RP"
-            class="w-full h-[50%] rounded-md"
-          />
-          <h1 class="text-black text-center text-5xl mt-5">Account custom</h1>
-          <p class="text-black text-center text-2xl mt-5">
-            expensive and cheap account
-          </p>
-          <a
-            href="acc.html"
-            class="btn bg-[#f59e0b] text-white text-2xl mt-5 flex items-center w-[50%]"
-            >Buy now</a
-          >
-        </div>
-      </div>
-      <p class="text-gray-700 text-2xl mt-40">
-        All purchases wont be refunded. Please buy it responsibly.
-      </p>
+
     </div>
 
     <div class="w-full h-[500px] bg-black relative flex justify-center">
@@ -152,5 +173,6 @@
         >
       </div>
     </div>
+    <script src="rp_config.js"></script> 
   </body>
 </html>
